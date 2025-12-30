@@ -1,10 +1,11 @@
+#include "secrets.h"
 #include <M5Unified.h>
 #include <WiFi.h>
 #include <time.h>
 
-// --- Wi-Fi 設定 ---
-const char *ssid = "YOUR_SSID";
-const char *password = "YOUR_PASSWORD";
+// --- Wi-Fi 設定 (include/secrets.h で定義) ---
+const char *ssid = WIFI_SSID;
+const char *password = WIFI_PASSWORD;
 // ------------------
 
 // NTP設定

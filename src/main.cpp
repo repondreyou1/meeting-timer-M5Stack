@@ -3,8 +3,8 @@
 #include <time.h>
 
 // --- Wi-Fi 設定 ---
-const char *ssid = "repondreyou1";
-const char *password = "19840206";
+const char *ssid = "YOUR_SSID";
+const char *password = "YOUR_PASSWORD";
 // ------------------
 
 // NTP設定
